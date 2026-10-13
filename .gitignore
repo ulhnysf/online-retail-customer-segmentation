@@ -1,0 +1,26 @@
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Büyük veri dosyaları (UCI'dan indirilir / yeniden üretilir)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.parquet
+
+# Yeniden üretilebilen büyük çıktılar (küçük sonuç tabloları ve grafikler repoda kalır)
+outputs/tables/rfm_with_segment.csv
+outputs/tables/rfm_anomalies.csv
+outputs/models/xgb_model.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
