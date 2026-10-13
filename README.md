@@ -20,8 +20,8 @@ alınan ürün kuralları (market basket) ve segmentleri RFM değerlerinden tahm
 ## Kurulum ve çalıştırma
 
 ```bash
-git clone https://github.com/<kullanici-adi>/<repo-adi>.git
-cd <repo-adi>
+git clone https://github.com/<ulhnysf>/<online-retail-customer-segmentation>.git
+cd <online-retail-customer-segmentation>
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
